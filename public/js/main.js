@@ -100,3 +100,11 @@
 // }
 
 
+let caract = prompt("entrer une lettre")
+switch (caract){
+    case "a","e","u","i","o":
+        alert('voyelle');
+        break;
+    default:
+        alert('consome')
+}
