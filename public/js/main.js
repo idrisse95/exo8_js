@@ -100,11 +100,21 @@
 // }
 
 
-let caract = prompt("entrer une lettre")
-switch (caract){
-    case "a","e","u","i","o":
-        alert('voyelle');
-        break;
+// let caract = prompt("entrer une lettre")
+// switch (caract){
+//     case "a","e","u","i","o":
+//         alert('voyelle');
+//         break;
+//     default:
+//         alert('consome')
+// }
+
+let posi = parseInt(prompt('entrer un nb'))
+switch(true){
+    case posi>=0:
+        alert('positif')
+    break;
     default:
-        alert('consome')
+        alert('nega')
+   
 }
