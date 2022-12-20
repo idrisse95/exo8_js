@@ -1,5 +1,11 @@
 
 
+
+
+
+
+
+
 // let jour = parseInt(prompt('entrez un jour'))
 // switch (jour){
 //     case 1:
@@ -109,12 +115,83 @@
 //         alert('consome')
 // }
 
-let posi = parseInt(prompt('entrer un nb'))
-switch(true){
-    case posi>=0:
-        alert('positif')
-    break;
-    default:
-        alert('nega')
+
+
+// let posi = parseInt(prompt('entrer un nb'))
+// switch(true){
+//     case posi>=0:
+//         alert('positif')
+//     break;
+//     default:
+//         alert('nega')
    
+// }
+
+
+
+// let maj = prompt('entre une lettre')
+// switch(maj){
+//     case "A","B","C","D","E":
+//         alert('uppercase');
+//         break;
+//     case "a","b","c":
+//         alert('lower')
+//     default:
+//         alert('entre de A à F')
+// }
+
+
+
+
+// EXOOO 2
+
+// let meteo = prompt('meteo?')
+// switch(meteo){
+//     case "chaud":
+//     alert('fait chaud waw');
+//     break;
+//     case "pleut:":
+//     alert('auy il pleut habille toi chaud');
+//     break;
+//     case "neige":
+//         alert('il neige oups')
+//         break;
+// }
+
+
+
+
+
+// EXOOO 3
+
+// let deux = +prompt('entre un nb?')
+// switch (true){
+//     case deux % 2 == 0:
+//         alert('oui')
+//         break;
+//     default:
+//         alert('non')
+//     }
+
+
+// EXXOO 4
+
+let n1 = +prompt('entre nb1')
+let ope = prompt('operateur?')
+let n2 = +prompt('entre nb2')
+
+switch(ope){
+    case "+":
+        alert(n1+n2) ;
+        break;
+    case "-":
+        alert(n1-n2);
+        break;
+        case "*":
+            alert(n1*n2) ;
+            break;
+        case "/":
+            alert(n1/n2);
+            break;
+    
 }
